@@ -28,7 +28,7 @@ class Graph:
     def __next__(self):
         pass
 
-    def BFS(self):
+    def BFS(self, context):
         """
         Обход графа в ширину
         :return:

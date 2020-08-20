@@ -9,7 +9,7 @@ class Node:
             self.add_ways(*ways)
 
     def add_ways(self, *args):
-        self._ways+=args
+        self._ways += args
 
     def ways(self):
         if self._ways:
